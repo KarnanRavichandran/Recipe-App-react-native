@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* TraningNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TraningNativeTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-TraningNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TraningNative.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-TraningNative-TraningNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TraningNative-TraningNativeTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A4AA29A3EF4F4ECB8F03CA12 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE279226B944CEA82EFB499 /* OpenSans-Bold.ttf */; };
+		DA92408FD0844D7FBF6FB98B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364BC3BFF9E64D62BC4C0C88 /* OpenSans-BoldItalic.ttf */; };
+		7261753DFD8F49EC8C893750 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1716302600CC45F5BA5A2D9C /* OpenSans-ExtraBold.ttf */; };
+		F9CAA5CE4C954663BEE249FA /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B315B70B588416DAD0919F6 /* OpenSans-ExtraBoldItalic.ttf */; };
+		9A62267310304E769D10C65D /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADB20A4CF50947F79BC4EACC /* OpenSans-Italic.ttf */; };
+		8664C0979DC748059E94B8EC /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C1E3C77EF49DE962BA2F7 /* OpenSans-Light.ttf */; };
+		EB45847724A94D838457157C /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A50781014191AE199B23 /* OpenSans-LightItalic.ttf */; };
+		8F6FB0641B0041AF8A689802 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FAAB872A7764110A3593496 /* OpenSans-Medium.ttf */; };
+		8FB6349A4FF445EA82FD7930 /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06EBD6C3021483CA0AC563A /* OpenSans-MediumItalic.ttf */; };
+		975CE80F31FD48E387D4647A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3395FED0F6B4F76A14A69C2 /* OpenSans-Regular.ttf */; };
+		E0541DBE779D415280C83C73 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C55E3EE83FB94ED4A5B71E92 /* OpenSans-SemiBold.ttf */; };
+		1E55706729F3480697F93FEF /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA22BCD3C50042369AE493CF /* OpenSans-SemiBoldItalic.ttf */; };
+		54A70116855D448D83B9960A /* OpenSans_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BDB1C39DA8743E9A836AFEF /* OpenSans_Condensed-Bold.ttf */; };
+		16A52DD85F12476784263754 /* OpenSans_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECF6485C187B4066A1BBC69E /* OpenSans_Condensed-BoldItalic.ttf */; };
+		28407CBBF2C84965AAF637C7 /* OpenSans_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFF40B256B9F4466918518C5 /* OpenSans_Condensed-ExtraBold.ttf */; };
+		AE19B338FC4444D4BB55DC99 /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01A471AF33E4F21B173EF51 /* OpenSans_Condensed-ExtraBoldItalic.ttf */; };
+		F939409CB1944919ADA1B75E /* OpenSans_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE71977C2702497EB3CB0B3D /* OpenSans_Condensed-Italic.ttf */; };
+		EC875C3B0A3F48679648D108 /* OpenSans_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81082638504C422F8565FEDA /* OpenSans_Condensed-Light.ttf */; };
+		6308686E1CBC42A0B730699B /* OpenSans_Condensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC414FA12AA40BAAD8343DB /* OpenSans_Condensed-LightItalic.ttf */; };
+		CBA3D6DC79A945DEA92BC835 /* OpenSans_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F8B29131CE34E46B793210E /* OpenSans_Condensed-Medium.ttf */; };
+		0DEB9277A9704B289440FD9A /* OpenSans_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D5C0E98FA4628BE379CF8 /* OpenSans_Condensed-MediumItalic.ttf */; };
+		D9B68E54ED064D2ABCB39A8E /* OpenSans_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37DDB0B65AB44FDB3A0CDE1 /* OpenSans_Condensed-Regular.ttf */; };
+		E0C7627B6518487D8FF1AA86 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB56771E77754D0997E5A56D /* OpenSans_Condensed-SemiBold.ttf */; };
+		93D02B73CD0646B6873A845C /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3CBB6047C4444399096EC8 /* OpenSans_Condensed-SemiBoldItalic.ttf */; };
+		0610E41C277D43A9BA8308CD /* OpenSans_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEA88C17DD4B45B381F386FD /* OpenSans_SemiCondensed-Bold.ttf */; };
+		7C7BC752506A4BBC9321BDC0 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FCBA7D28CA4521A502D795 /* OpenSans_SemiCondensed-BoldItalic.ttf */; };
+		8FF3E41717F245EA9D179A7E /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4A78F67794D41688C5B25EB /* OpenSans_SemiCondensed-ExtraBold.ttf */; };
+		27099353C31C46FE83D98CC6 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68EB31CAD98349C398D77072 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */; };
+		4EECE6C0AF64495791F4B863 /* OpenSans_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA3722ABD0E4743B7976845 /* OpenSans_SemiCondensed-Italic.ttf */; };
+		F6B576E5E31C49EF85561229 /* OpenSans_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD4E214E750D475A9722ACB2 /* OpenSans_SemiCondensed-Light.ttf */; };
+		2BE7A9C40FC14EF38C4D64B5 /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B306666FFA844956A52FEA7F /* OpenSans_SemiCondensed-LightItalic.ttf */; };
+		3CDDE750A0E94CA9BC9CFA90 /* OpenSans_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B65D29D1E2F4237AF5DCDC6 /* OpenSans_SemiCondensed-Medium.ttf */; };
+		AAE3D3D06DB64F6290EFD234 /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6B25838CFD94B7CB03D94BD /* OpenSans_SemiCondensed-MediumItalic.ttf */; };
+		9E31C8F8EC53480FA1D0C465 /* OpenSans_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31611AECA69F43A9884DA6AD /* OpenSans_SemiCondensed-Regular.ttf */; };
+		33A74580D8174961A50A96E5 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AEF6B99BBDD413E8B02F40F /* OpenSans_SemiCondensed-SemiBold.ttf */; };
+		BB76ABF9D941459DA0635D23 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 675F39448AA9425B93C11EF1 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TraningNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* TraningNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraningNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TraningNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraningNativeTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TraningNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraningNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TraningNative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TraningNative/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TraningNative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TraningNative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TraningNative/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TraningNative-TraningNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TraningNative-TraningNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-TraningNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraningNative.debug.xcconfig"; path = "Target Support Files/Pods-TraningNative/Pods-TraningNative.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-TraningNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraningNative.release.xcconfig"; path = "Target Support Files/Pods-TraningNative/Pods-TraningNative.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-TraningNative-TraningNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraningNative-TraningNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-TraningNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TraningNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TraningNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-TraningNative-TraningNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraningNative-TraningNativeTests.release.xcconfig"; path = "Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AFE279226B944CEA82EFB499 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		364BC3BFF9E64D62BC4C0C88 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-BoldItalic.ttf"; path = "../assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1716302600CC45F5BA5A2D9C /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B315B70B588416DAD0919F6 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADB20A4CF50947F79BC4EACC /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C6C1E3C77EF49DE962BA2F7 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E78A50781014191AE199B23 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-LightItalic.ttf"; path = "../assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3FAAB872A7764110A3593496 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; name = "OpenSans-Medium.ttf"; path = "../assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D06EBD6C3021483CA0AC563A /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-MediumItalic.ttf"; path = "../assets/fonts/OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3395FED0F6B4F76A14A69C2 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C55E3EE83FB94ED4A5B71E92 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA22BCD3C50042369AE493CF /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BDB1C39DA8743E9A836AFEF /* OpenSans_Condensed-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-Bold.ttf"; path = "../assets/fonts/OpenSans_Condensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECF6485C187B4066A1BBC69E /* OpenSans_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-BoldItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFF40B256B9F4466918518C5 /* OpenSans_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-ExtraBold.ttf"; path = "../assets/fonts/OpenSans_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A01A471AF33E4F21B173EF51 /* OpenSans_Condensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CE71977C2702497EB3CB0B3D /* OpenSans_Condensed-Italic.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-Italic.ttf"; path = "../assets/fonts/OpenSans_Condensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81082638504C422F8565FEDA /* OpenSans_Condensed-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-Light.ttf"; path = "../assets/fonts/OpenSans_Condensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAC414FA12AA40BAAD8343DB /* OpenSans_Condensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-LightItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F8B29131CE34E46B793210E /* OpenSans_Condensed-Medium.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-Medium.ttf"; path = "../assets/fonts/OpenSans_Condensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D6D5C0E98FA4628BE379CF8 /* OpenSans_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-MediumItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A37DDB0B65AB44FDB3A0CDE1 /* OpenSans_Condensed-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-Regular.ttf"; path = "../assets/fonts/OpenSans_Condensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB56771E77754D0997E5A56D /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-SemiBold.ttf"; path = "../assets/fonts/OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA3CBB6047C4444399096EC8 /* OpenSans_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_Condensed-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEA88C17DD4B45B381F386FD /* OpenSans_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-Bold.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04FCBA7D28CA4521A502D795 /* OpenSans_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-BoldItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4A78F67794D41688C5B25EB /* OpenSans_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-ExtraBold.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68EB31CAD98349C398D77072 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAA3722ABD0E4743B7976845 /* OpenSans_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-Italic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD4E214E750D475A9722ACB2 /* OpenSans_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-Light.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B306666FFA844956A52FEA7F /* OpenSans_SemiCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-LightItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B65D29D1E2F4237AF5DCDC6 /* OpenSans_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-Medium.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6B25838CFD94B7CB03D94BD /* OpenSans_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-MediumItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31611AECA69F43A9884DA6AD /* OpenSans_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-Regular.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AEF6B99BBDD413E8B02F40F /* OpenSans_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-SemiBold.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		675F39448AA9425B93C11EF1 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans_SemiCondensed-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-TraningNative-TraningNativeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-TraningNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* TraningNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* TraningNativeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = TraningNativeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* TraningNative */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = TraningNative;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-TraningNative.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-TraningNative-TraningNativeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* TraningNative */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* TraningNativeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				DFAC1D61044541C7A700FB38 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* TraningNative.app */,
+				00E356EE1AD99517003FC87E /* TraningNativeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-TraningNative.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-TraningNative.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-TraningNative-TraningNativeTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-TraningNative-TraningNativeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFAC1D61044541C7A700FB38 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AFE279226B944CEA82EFB499 /* OpenSans-Bold.ttf */,
+				364BC3BFF9E64D62BC4C0C88 /* OpenSans-BoldItalic.ttf */,
+				1716302600CC45F5BA5A2D9C /* OpenSans-ExtraBold.ttf */,
+				7B315B70B588416DAD0919F6 /* OpenSans-ExtraBoldItalic.ttf */,
+				ADB20A4CF50947F79BC4EACC /* OpenSans-Italic.ttf */,
+				4C6C1E3C77EF49DE962BA2F7 /* OpenSans-Light.ttf */,
+				3E78A50781014191AE199B23 /* OpenSans-LightItalic.ttf */,
+				3FAAB872A7764110A3593496 /* OpenSans-Medium.ttf */,
+				D06EBD6C3021483CA0AC563A /* OpenSans-MediumItalic.ttf */,
+				E3395FED0F6B4F76A14A69C2 /* OpenSans-Regular.ttf */,
+				C55E3EE83FB94ED4A5B71E92 /* OpenSans-SemiBold.ttf */,
+				FA22BCD3C50042369AE493CF /* OpenSans-SemiBoldItalic.ttf */,
+				4BDB1C39DA8743E9A836AFEF /* OpenSans_Condensed-Bold.ttf */,
+				ECF6485C187B4066A1BBC69E /* OpenSans_Condensed-BoldItalic.ttf */,
+				BFF40B256B9F4466918518C5 /* OpenSans_Condensed-ExtraBold.ttf */,
+				A01A471AF33E4F21B173EF51 /* OpenSans_Condensed-ExtraBoldItalic.ttf */,
+				CE71977C2702497EB3CB0B3D /* OpenSans_Condensed-Italic.ttf */,
+				81082638504C422F8565FEDA /* OpenSans_Condensed-Light.ttf */,
+				DAC414FA12AA40BAAD8343DB /* OpenSans_Condensed-LightItalic.ttf */,
+				5F8B29131CE34E46B793210E /* OpenSans_Condensed-Medium.ttf */,
+				9D6D5C0E98FA4628BE379CF8 /* OpenSans_Condensed-MediumItalic.ttf */,
+				A37DDB0B65AB44FDB3A0CDE1 /* OpenSans_Condensed-Regular.ttf */,
+				BB56771E77754D0997E5A56D /* OpenSans_Condensed-SemiBold.ttf */,
+				FA3CBB6047C4444399096EC8 /* OpenSans_Condensed-SemiBoldItalic.ttf */,
+				EEA88C17DD4B45B381F386FD /* OpenSans_SemiCondensed-Bold.ttf */,
+				04FCBA7D28CA4521A502D795 /* OpenSans_SemiCondensed-BoldItalic.ttf */,
+				E4A78F67794D41688C5B25EB /* OpenSans_SemiCondensed-ExtraBold.ttf */,
+				68EB31CAD98349C398D77072 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */,
+				BAA3722ABD0E4743B7976845 /* OpenSans_SemiCondensed-Italic.ttf */,
+				BD4E214E750D475A9722ACB2 /* OpenSans_SemiCondensed-Light.ttf */,
+				B306666FFA844956A52FEA7F /* OpenSans_SemiCondensed-LightItalic.ttf */,
+				0B65D29D1E2F4237AF5DCDC6 /* OpenSans_SemiCondensed-Medium.ttf */,
+				C6B25838CFD94B7CB03D94BD /* OpenSans_SemiCondensed-MediumItalic.ttf */,
+				31611AECA69F43A9884DA6AD /* OpenSans_SemiCondensed-Regular.ttf */,
+				9AEF6B99BBDD413E8B02F40F /* OpenSans_SemiCondensed-SemiBold.ttf */,
+				675F39448AA9425B93C11EF1 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* TraningNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TraningNativeTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TraningNativeTests;
+			productName = TraningNativeTests;
+			productReference = 00E356EE1AD99517003FC87E /* TraningNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* TraningNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TraningNative" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraningNative;
+			productName = TraningNative;
+			productReference = 13B07F961A680F5B00A75B9A /* TraningNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TraningNative" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* TraningNative */,
+				00E356ED1AD99517003FC87E /* TraningNativeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A4AA29A3EF4F4ECB8F03CA12 /* OpenSans-Bold.ttf in Resources */,
+				DA92408FD0844D7FBF6FB98B /* OpenSans-BoldItalic.ttf in Resources */,
+				7261753DFD8F49EC8C893750 /* OpenSans-ExtraBold.ttf in Resources */,
+				F9CAA5CE4C954663BEE249FA /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				9A62267310304E769D10C65D /* OpenSans-Italic.ttf in Resources */,
+				8664C0979DC748059E94B8EC /* OpenSans-Light.ttf in Resources */,
+				EB45847724A94D838457157C /* OpenSans-LightItalic.ttf in Resources */,
+				8F6FB0641B0041AF8A689802 /* OpenSans-Medium.ttf in Resources */,
+				8FB6349A4FF445EA82FD7930 /* OpenSans-MediumItalic.ttf in Resources */,
+				975CE80F31FD48E387D4647A /* OpenSans-Regular.ttf in Resources */,
+				E0541DBE779D415280C83C73 /* OpenSans-SemiBold.ttf in Resources */,
+				1E55706729F3480697F93FEF /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				54A70116855D448D83B9960A /* OpenSans_Condensed-Bold.ttf in Resources */,
+				16A52DD85F12476784263754 /* OpenSans_Condensed-BoldItalic.ttf in Resources */,
+				28407CBBF2C84965AAF637C7 /* OpenSans_Condensed-ExtraBold.ttf in Resources */,
+				AE19B338FC4444D4BB55DC99 /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */,
+				F939409CB1944919ADA1B75E /* OpenSans_Condensed-Italic.ttf in Resources */,
+				EC875C3B0A3F48679648D108 /* OpenSans_Condensed-Light.ttf in Resources */,
+				6308686E1CBC42A0B730699B /* OpenSans_Condensed-LightItalic.ttf in Resources */,
+				CBA3D6DC79A945DEA92BC835 /* OpenSans_Condensed-Medium.ttf in Resources */,
+				0DEB9277A9704B289440FD9A /* OpenSans_Condensed-MediumItalic.ttf in Resources */,
+				D9B68E54ED064D2ABCB39A8E /* OpenSans_Condensed-Regular.ttf in Resources */,
+				E0C7627B6518487D8FF1AA86 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
+				93D02B73CD0646B6873A845C /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */,
+				0610E41C277D43A9BA8308CD /* OpenSans_SemiCondensed-Bold.ttf in Resources */,
+				7C7BC752506A4BBC9321BDC0 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */,
+				8FF3E41717F245EA9D179A7E /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */,
+				27099353C31C46FE83D98CC6 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */,
+				4EECE6C0AF64495791F4B863 /* OpenSans_SemiCondensed-Italic.ttf in Resources */,
+				F6B576E5E31C49EF85561229 /* OpenSans_SemiCondensed-Light.ttf in Resources */,
+				2BE7A9C40FC14EF38C4D64B5 /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */,
+				3CDDE750A0E94CA9BC9CFA90 /* OpenSans_SemiCondensed-Medium.ttf in Resources */,
+				AAE3D3D06DB64F6290EFD234 /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */,
+				9E31C8F8EC53480FA1D0C465 /* OpenSans_SemiCondensed-Regular.ttf in Resources */,
+				33A74580D8174961A50A96E5 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */,
+				BB76ABF9D941459DA0635D23 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative/Pods-TraningNative-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative/Pods-TraningNative-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TraningNative/Pods-TraningNative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraningNative-TraningNativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraningNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative/Pods-TraningNative-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative/Pods-TraningNative-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TraningNative/Pods-TraningNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TraningNative-TraningNativeTests/Pods-TraningNative-TraningNativeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TraningNativeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TraningNative */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-TraningNative-TraningNativeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TraningNativeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TraningNative.app/TraningNative";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-TraningNative-TraningNativeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = TraningNativeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TraningNative.app/TraningNative";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-TraningNative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TraningNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TraningNative;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-TraningNative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = TraningNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TraningNative;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TraningNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TraningNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TraningNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
